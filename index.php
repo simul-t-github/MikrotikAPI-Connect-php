@@ -6,7 +6,7 @@ $API = new RouterosAPI();
 
 $API->debug = true;
 
-if ($API->connect('103.195.140.98', 'NFADMIN', 'NFADMIN')) {
+if ($API->connect('111.111.23.32', 'admin', 'admin')) {
 
    $API->write('/interface/pppoe-server/print');
 
